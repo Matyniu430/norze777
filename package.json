@@ -1,0 +1,48 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.22.2",
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/lodash": "^4.17.7",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@types/sanitize-html": "^2.13.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.7.7",
+    "laravel-vite-plugin": "^1.0.5",
+    "postcss": "^8.4.47",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.11",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.5"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.1.8",
+    "@inertiajs/react": "^1.2.0",
+    "@stripe/react-stripe-js": "^2.8.1",
+    "@stripe/stripe-js": "^4.8.0",
+    "@uidotdev/usehooks": "^2.4.1",
+    "classnames": "^2.5.1",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sanitize-html": "^2.13.1",
+    "ziggy-js": "^2.3.0"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "useTabs": false,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "printWidth": 80,
+    "arrowParens": "avoid"
+  }
+}
